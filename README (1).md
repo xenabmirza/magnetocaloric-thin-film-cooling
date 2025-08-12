@@ -15,18 +15,18 @@ Magnetocaloric thin films offer an alternative: by exploiting field-induced temp
 The magnetocaloric effect is the observed change in temperature of a magnetic material when it is exposed to a changing magnetic field, under adiabatic conditions. It arises from coupling between the material's magnetic order and entropy.
 
 The Maxwell relation for MCE:
-\[
+$\[
 \left( \frac{\partial S}{\partial H} \right)_T = \mu_0 \left( \frac{\partial M}{\partial T} \right)_H
-\]
+\]$
 From this, we derive:
 - **Isothermal entropy change**:
-\[
+$\[
 \Delta S_{\text{iso}}(T) = \mu_0 \int_{H_{\min}}^{H_{\max}} \left( \frac{\partial M}{\partial T} \right)_H dH
-\]
+\]$
 - **Adiabatic temperature change**:
-\[
+$\[
 \Delta T_{\text{ad}}(T) = -\frac{T}{C_{\text{vol}}} \, \mu_0 \int_{H_{\min}}^{H_{\max}} \left( \frac{\partial M}{\partial T} \right)_H dH
-\]
+\]$
 
 ### Magnetoelectric Coupling
 In a magnetoelectric thin-film stack, electric fields can indirectly modulate magnetic properties via strain coupling, enabling low-power control of the magnetocaloric response, eliminating the need for large magnetic coils. This is especially important for integration on microchips, where footprint and energy input must be minimal.
